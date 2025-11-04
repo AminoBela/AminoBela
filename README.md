@@ -1,7 +1,6 @@
 # 👋 Salut, moi c’est Amin Belalia Bendjafar
 
-🎓 Étudiant en 2ᵉ année de **BUT Informatique – parcours DACS (Déploiement d’Applications Communicantes et Sécurisées)** à l’IUT de Nancy.  
-💼 Je travaille aussi chez **La Poste (Correos)** les week-ends.  
+🎓 Étudiant en 2ᵉ année de **BUT Informatique – parcours DACS (Déploiement d’Applications Communicantes et Sécurisées)** à l’IUT Nancy-Charlmagne.  
 🌍 Passionné par les **systèmes, la cybersécurité, le cloud et le déploiement d’applications**.
 
 ---
@@ -41,7 +40,3 @@
 📧 **abelaliabendjafar@gmail.com**  
 💼 [LinkedIn](www.linkedin.com/in/amin-belalia-bendjafar-8b340a227) 
 🐙 [GitHub](https://github.com/AminoBela)
-
----
-
-> “Build, secure, and automate — one project at a time.” 🚀
