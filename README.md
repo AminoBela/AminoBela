@@ -1,0 +1,41 @@
+# 👋 Salut, moi c’est Amin Belalia Bendjafar
+
+🎓 Étudiant en 2ᵉ année de **BUT Informatique – parcours DACS (Déploiement d’Applications Communicantes et Sécurisées)** à l’IUT de Nancy.  
+💼 Je travaille aussi chez **La Poste (Correos)** les week-ends.  
+🌍 Passionné par les **systèmes, la cybersécurité, le cloud et le déploiement d’applications**.
+
+---
+
+## 🚀 Technologies principales
+
+<!--START_SECTION:tech-->
+*Chargement automatique des langages...* 🔄  
+<!--END_SECTION:tech-->
+
+---
+
+## 📈 Statistiques GitHub
+
+![AminoBela's GitHub stats](https://github-readme-stats.vercel.app/api?username=AminoBela&show_icons=true&theme=radical)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AminoBela&layout=compact&theme=radical)
+
+---
+
+## 📚 Projets récents
+
+- 🕹️ **Planif’Event** — application web de planification d’événements (React, Node.js, MongoDB)
+- ☁️ **Mini cloud personnel** — installation d’un Nextcloud auto-hébergé sous Debian
+- ♟️ **Jeu de morpion** — version Express/EJS et version React avec API REST
+- 🔭 **Monitoring Kubernetes** — autoscaling et métriques avec Grafana et Prometheus
+
+---
+
+## ✉️ Me contacter
+
+📧 **abelaliabendjafar@gmail.com**  
+💼 [LinkedIn](https://www.linkedin.com/) *(ajoute ton lien ici)*  
+🐙 [GitHub](https://github.com/AminoBela)
+
+---
+
+> “Build, secure, and automate — one project at a time.” 🚀
