@@ -1,0 +1,50 @@
+name: 🧠 Update Tech Stack
+
+on:
+  schedule:
+    - cron: '0 0 * * 0' # chaque dimanche à minuit
+  workflow_dispatch: # permet de le lancer manuellement
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: sudo apt-get install -y jq curl
+
+      - name: Generate tech section
+        run: |
+          echo "🔄 Génération de la section tech..."
+          echo "<!--START_SECTION:tech-->" > tech.tmp
+          echo "" >> tech.tmp
+
+          curl -s "https://api.github.com/users/AminoBela/repos?per_page=100" \
+          | jq -r '.[].language' \
+          | sort | uniq -c | sort -nr \
+          | awk '{ if ($2 != "null") print "![Badge](https://img.shields.io/badge/-" $2 "-blue?style=flat&logo=" tolower($2) ")"}' \
+          >> tech.tmp
+
+          echo "" >> tech.tmp
+          echo "<!--END_SECTION:tech-->" >> tech.tmp
+
+          # insère dans le README en remplaçant la section existante
+          awk '
+            BEGIN {in_section=0}
+            /<!--START_SECTION:tech-->/ {in_section=1; system("cat tech.tmp"); next}
+            /<!--END_SECTION:tech-->/ {in_section=0; next}
+            in_section==0 {print}
+          ' README.md > README.new
+
+          mv README.new README.md
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "🔄 Mise à jour automatique des technologies" || echo "Aucun changement à valider"
+          git push
