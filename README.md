@@ -33,7 +33,7 @@
 ## ✉️ Me contacter
 
 📧 **abelaliabendjafar@gmail.com**  
-💼 [LinkedIn](https://www.linkedin.com/) *(ajoute ton lien ici)*  
+💼 [LinkedIn](www.linkedin.com/in/amin-belalia-bendjafar-8b340a227) 
 🐙 [GitHub](https://github.com/AminoBela)
 
 ---
