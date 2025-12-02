@@ -1,6 +1,6 @@
 # 👋 Salut, moi c’est Amin Belalia Bendjafar
 
-🎓 Étudiant en 2ᵉ année de **BUT Informatique – parcours DACS (Déploiement d’Applications Communicantes et Sécurisées)** à l’IUT Nancy-Charlmagne.  
+🎓 Étudiant en 3ᵉ année de **BUT Informatique – parcours DACS (Déploiement d’Applications Communicantes et Sécurisées)** à l’IUT Nancy-Charlmagne.  
 🌍 Passionné par les **systèmes, la cybersécurité, le cloud et le déploiement d’applications**.
 
 ---
