@@ -9,6 +9,12 @@
 
 <!--START_SECTION:tech-->
 
+![Badge](https://img.shields.io/badge/-JavaScript-blue?style=flat&logo=javascript)
+![Badge](https://img.shields.io/badge/-Java-blue?style=flat&logo=java)
+![Badge](https://img.shields.io/badge/-PHP-blue?style=flat&logo=php)
+![Badge](https://img.shields.io/badge/-Shell-blue?style=flat&logo=shell)
+![Badge](https://img.shields.io/badge/-Dockerfile-blue?style=flat&logo=dockerfile)
+![Badge](https://img.shields.io/badge/-C-blue?style=flat&logo=c)
 
 <!--END_SECTION:tech-->
 
